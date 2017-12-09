@@ -1,0 +1,34 @@
+.text{
+	 display: inline-block;
+    position: relative;
+    height: 25px;
+    top: 50px;
+} 
+.up{
+	top: 35px;
+    left: -22px;
+}
+#content1 .infoTOAdd .text em{
+	    display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute;
+}
+.SalaryLeft{
+	left: -20px;
+    top: -2px;
+    background: url(../img/icon.png) no-repeat -102.5px -4px;
+    background-size: 250px 250px;
+}
+
+.down{
+	top: 40px;
+    left: 23px;
+}
+.SalaryRight{
+	    right: -14px;
+    top: 15px;
+    background: url(../img/icon.png) no-repeat -119.5px -4px;
+    background-size: 250px 250px;
+}
+

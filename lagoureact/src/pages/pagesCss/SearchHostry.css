@@ -1,0 +1,32 @@
+.history{
+	    background-color: #fafafa;
+    color: #666666;
+}
+.history-item{
+	    height: 45px;
+    line-height: 45px;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 0 0 23px;
+}
+.Onetext{
+	display: inline-block;
+    height: 45px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 75%;
+    text-align:left;
+}
+.delcon{
+	float: right;
+    height: 45px;
+    text-align: center;
+    width: 14%;
+}
+.OneIcon{
+	display: inline-block;
+    height: 10px;
+    width: 12px;
+    background: url(../img/icon.png) no-repeat -71.5px -4px;
+    background-size: 250px 250px;
+}

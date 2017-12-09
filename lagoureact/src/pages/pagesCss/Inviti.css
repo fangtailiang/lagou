@@ -1,0 +1,150 @@
+#content1{
+	    padding: 15px;
+}
+.Inplus{
+    width: 100%;
+    box-sizing: border-box;
+    height: 205px;
+    border: 1px solid #c7f3e9;
+    background-color: #eafffa;
+    padding: 12px;
+}
+.bulb{
+	width: 23px;
+    height: 33px;
+    background: url(../img/icon2.png) no-repeat -95px -69px;
+    background-size: 250px 250px;
+    margin: 0 auto;
+    margin-top: 6px;
+}
+.bulbp{
+	    font-size: 1.4rem;
+    color: #3f4e4b;
+    line-height: 20px;
+    text-align: left;
+    text-indent: 2em;
+    margin-top: 9px;
+
+} 
+.plusbtn{
+	width: 45%;
+    margin: 9px auto;
+}
+.plusbtn span{
+	color: #3f4e4b;
+    display: inline-block;
+    font-size: 1.3rem;
+    position: relative;
+    top: -10px;
+    font-weight: bold;
+}
+.plusbtn .Invitebtn{
+	    display: inline-block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #5e5e5e;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 8px;
+}
+.circle{
+	display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: absolute;
+    top: 2px;
+    left: 3px;
+}
+.close{
+	width: 12px;
+    height: 12px;
+    background: url(../img/icon2.png) no-repeat -130px -49px;
+    background-size: 250px 250px;
+    position: absolute;
+    top: 9px;
+    right: 10px;
+}
+.explain{
+	margin-top: 20px;
+    padding-left: 8px;
+}
+.txt{
+	margin-top: 12px;
+}
+.explain p{
+	text-align: left;
+	color: #aaa;
+    font-size: 1.2rem;
+    line-height: 17px;
+}
+.inviteText{
+	padding-left: 10px;
+}
+.oplus{
+	margin: 14px 14px 0;
+    text-align: center;
+    height: 117.5px;
+    background-color: #eafffa;
+    border: 1px solid #c7f3e9;
+}
+.plusClose{
+	    width: 45%;
+    margin: 23px auto 25px auto;
+}
+.plusClose h3{
+	color: #3f4e4b;
+    display: inline-block;
+    font-size: 1.3rem;
+    position: relative;
+    top: -10px;
+    font-weight: 700;
+}
+.btnClose{
+	display: inline-block;
+    width: 68px;
+    height: 28px;
+    line-height: 28px;
+    background-color: #22cda6;
+    border-radius: 15px;
+    position: relative;
+    margin-left: 8px;
+}
+.btnClose .close{
+	    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: #fff;
+    border-radius: 12px;
+    position: absolute;
+    top: 2px;
+    right: 3px;
+}
+.closeX{
+	    width: 15px;
+    height: 15px;
+    background: url(../img/icon2.png) no-repeat -155px -48px;
+    background-size: 250px 250px;
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+.changeKai{
+	    color: #00b38a;
+    font-size: 1.3rem;
+    text-decoration: underline;
+    text-align: center;
+}
+.listClost{
+ margin-top: 12px;
+}
+.noINvite{
+	padding: 14px;
+    font-size: 1.4rem;
+    color: #666;
+    position: relative;
+    line-height: 20px;
+    text-align: left;
+}

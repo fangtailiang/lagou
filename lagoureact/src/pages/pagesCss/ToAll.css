@@ -1,0 +1,31 @@
+.infoTOAdd{
+	background: url(../img/back-info.jpg) repeat;
+    background-size: 320px 125px;
+    height: 125px;
+    color: #00b38a;
+    font-size: 1.9rem;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+.innerText{
+	display: inline-block;
+    position: relative;
+    height: 25px;
+    top: 50px;
+}
+.textLeft{
+	left: -20px;
+    top: -2px;
+    background: url(../img/icon.png) no-repeat -102.5px -4px;
+    background-size: 250px 250px;
+}
+.textright{
+	 right: -14px;
+    top: 15px;
+    background: url(../img/icon.png) no-repeat -119.5px -4px;
+    background-size: 250px 250px;
+}
+.fdialog-rcon {
+	margin-bottom: 0px;
+    padding-bottom: 0px;
+}

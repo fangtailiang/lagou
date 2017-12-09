@@ -1,0 +1,18 @@
+.innerText em{
+	display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute;
+}
+.ScaleLeft{
+	left: -20px;
+    top: -2px;
+    background: url(../img/icon.png) no-repeat -102.5px -4px;
+    background-size: 250px 250px;
+}
+.Scaleright{
+	right: -14px;
+    top: 15px;
+    background: url(../img/icon.png) no-repeat -119.5px -4px;
+    background-size: 250px 250px;
+}

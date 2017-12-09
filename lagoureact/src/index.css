@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+html, body,a, ul, i,li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset,textarea,span, legend, img,div,input
+{ margin:0; padding:0;}
+
+fieldset, img { border:none; }
+
+a{text-decoration:none ;}
+
+ul, ol ,li{ list-style:none; } 
+
+i,em{
+	font-style:normal;	
+}
+b,strong,h1,h2,h3,h4,h5,h6{
+	font-weight: normal
+}
+.radial{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: -webkit-linear-gradient(135deg,#029253,#00887b);
+}
+.new_wrapper{
+	width: 90%;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+.pd{
+	position: relative;
+}
+.pd input{
+	width: 90%;
+    border: 0;
+    outline: 0;
+    font: 1.6em "黑体";
+    color: #333;
+    background: #fff;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    padding: 6% 5%;
+    margin: 0;
+}
+.pd .input_tips{
+	position: absolute;
+	right: 5%;
+    top: 36%;
+    font-size: 1.2em;
+    color: #f94e4e;
+    line-height: 1.2;
+    display: none;
+}
+.pd .input_tt{
+	top:42%;
+	right: 13%;
+}
+.eye{
+	width: 20px;
+    height: 13px;
+	position: absolute;
+	bottom: 33%;
+	right: 5%;
+	background: url("./pages/img/psweye.png") no-repeat 0px 0px;
+	background-size: 20px 30px;
+}
+
+.pd_pwd .activeEye{
+	background-position: 0 -16px;
+}
+.btn-login{
+	display: block;
+    width: 100%;
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+    background: #0ac599;
+    box-shadow: 0 2px 0 #008765;
+    border-radius: 5px;
+    margin: 20px 0;
+    padding: 5%;
+    border: 0;
+}
+.register_text{
+	color: #45e3be;
+    font-size: 1.3em;
+    line-height: 1.3;
+}
+.btn_register{
+	display: block;
+    width: 90%;
+    font-size: 2em;
+    color: #45e3be;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #45e3be;
+    border-radius: 5px;
+    margin: 8px 0;
+    padding: 5%;
+}
+img,input{
+    border: none;
+    outline: none;
+    padding: 0;
+}
+.seActive{
+    background-color: #e7f3f0;
+}

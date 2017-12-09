@@ -1,0 +1,46 @@
+.wrapper{
+	width: 96%;
+    padding: 0 2%;
+    background: #f9f9f9;
+    margin-top: 10px;
+}
+.resume_header{
+	border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+.resume_head{
+	height: 78px;
+    background: #ffffff url(../img/resume_head.png) left top no-repeat;
+    background-size: 100%;
+    overflow: hidden;
+    margin: 0 -1px;
+    padding: 0px 1px;
+}
+.none-work{
+	height: 30px;
+    background-color: #ffffff;
+    position: relative;
+}
+.none-work span{
+	display: block;
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    -webkit-border-radius: 65px;
+    position: absolute;
+    top: -55px;
+    left: 48%;
+    margin-left: -29px;
+    background: #ffffff;
+    border: 5px solid #f7f7f7;
+    z-index: 100;
+}
+.none-work img{
+	    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    position: absolute;
+    bottom: 15px;
+    left: 49.5%;
+    margin-left: -29px;
+    z-index: 100;
+}

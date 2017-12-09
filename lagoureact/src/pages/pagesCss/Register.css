@@ -1,0 +1,51 @@
+.reg input{
+	border-radius: 5px;
+}
+.vcode{
+	margin: 10px 0;
+}
+#pwd{
+	margin: 20px 0;
+}
+.imgVcode{
+	 width: 113px;
+    height: 42px;
+	display: block;
+    margin: 10px 0 20px;
+    overflow: hidden;
+    float: left;
+    line-height: 42px;
+}
+#vcodeWrap a{
+	margin-left: 20px;
+    font-size: 1.4em;
+    color: #45e3be;
+    text-decoration: none;
+    line-height: 62px;
+}
+#vcodeWrap a em{
+	color: #9bffd3;
+    font-style: normal;
+    line-height: 42px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.register_text a{
+	color: #9bffd3;
+    text-decoration: underline;
+}
+.activeEye{
+    background: url(../img/psweye.png) 0 -16px no-repeat;
+    background-size: 20px 30px;
+        position: absolute;
+    bottom: 33%;
+    right: 5%;
+        width: 20px;
+    height: 13px;
+        transform: scale(1.1,1.1);
+}
+.input_tt1{
+        position: absolute;
+    right: 6%;
+    top: 19%!important;
+}

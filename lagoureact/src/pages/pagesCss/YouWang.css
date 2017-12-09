@@ -1,0 +1,39 @@
+.custom-infoSearch{
+	padding: 20px;
+}
+.headerSearch{
+	    display: block;
+    color: #ccc;
+    font-size: 1.2rem;
+}
+.desc{
+	display: block;
+    margin: 10px 0 20px 0;
+    text-align: center;
+    height: 62.5px;
+    line-height: 62.5px;
+    color: #333;
+    font-size: 1.5rem;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0 10px;
+}
+.search{
+	    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background-color: #00b38a;
+    font-size: 1.6rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.empty{
+	color: #00b38a;
+    font-style: normal;
+}

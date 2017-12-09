@@ -1,0 +1,57 @@
+.typeLeft{
+	 left: -20px;
+    top: -2px;
+    background: url(../img/icon.png) no-repeat -102.5px -4px;
+    background-size: 250px 250px;
+}
+.typeright{
+	right: -14px;
+    top: 15px;
+    background: url(../img/icon.png) no-repeat -119.5px -4px;
+    background-size: 250px 250px;
+}
+#content .infoTOAdd .innerText em{
+	display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute;
+}
+.typeInput{
+	height: 50px;
+    line-height: 50px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin-right: 60px;
+    padding-right: 45px;
+    border-top: none;
+}
+.inputer1{
+	    display: block;
+    margin-left: 23px;
+    font-size: 1.5rem;
+    width: 100%;
+        height: 100%;
+}
+.button2{
+	height: 100%;
+	position: absolute;
+    top: 0;
+    right: -61px;
+    width: 60px;
+    border-left: 1px solid #e8e8e8;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c2cfcc;
+    border-bottom: 1px solid #e8e8e8;
+}
+.item{
+	height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

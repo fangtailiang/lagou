@@ -1,0 +1,82 @@
+.linputer{
+	    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 45px;
+}
+.lbutton{
+	    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+}
+.lbutton .city{
+	    line-height: 45px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.cityicon{
+	display: inline-block;
+	margin-left: 4px;
+	width: 8.5px;
+    height: 7px;
+    background: url(../img/icon.png) no-repeat -1px -2.5px;
+    background-size: 250px 250px;
+}
+.rinput{
+	height: 45px;
+    margin-left: 89px;
+    position: relative;
+}
+.inputer{
+
+    display: block;
+    border: none;
+    padding: 10px 0;
+    height: 25px;
+    line-height: 25px;
+    color: #333333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 1.5rem;
+    float: left;
+    outline: none;
+}
+.searchSE{
+	display: inline-block;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    position: relative;
+}
+.searchSE .searchicon{
+	display: block;
+    margin: 14px auto 0 auto;
+    width: 17px;
+    height: 17px;
+    background: url(../img/icon.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+.custominfo{
+        height: 35px;
+    line-height: 35px;
+    font-size: 1.4rem;
+    color: #5d897e;
+    background-color: #e7f7f3;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+.customNO{
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.4rem;
+    color: #5d897e;
+    background-color: #e7f7f3;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}

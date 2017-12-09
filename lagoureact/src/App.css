@@ -1,0 +1,89 @@
+html{
+    color: #333;
+    font-size: 65.5%;
+    font-family: Helvetica;
+    height: 100%;
+}
+.App {
+  text-align: center;
+  position: relative;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+#header{
+  height: 45px;
+    line-height: 45px;
+    background-color: #00b38a;
+    color: #fff;
+    font-size: 1.8rem;
+    text-align: center;
+    position: relative;
+}
+#footer{
+    width: 100%;
+    line-height: 45px;
+    border-top: 1px solid #e8e8e8;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+    font-size: 1.6rem;
+    display: flex;
+}
+#footer a{
+  display: block;
+  flex: 1;
+  color: #c2cfcc;
+  background-color: #f6f6f6;
+}
+#footer a .icon{
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin-bottom: -2px; 
+    background: url(./pages/img/icon2.png) no-repeat  -32px -2.5px;
+    background-size: 250px 250px;
+}
+#footer a .searchFooter{
+  background-position: -14px -2.5px;
+}
+#footer a .userFooter{
+  background-position: -52.5px -2px;
+}
+#footer .linkActive{
+    color: #00b38a;
+    background: #e7f3f0;
+}
+#footer .linkActive .selectedFooter{
+    background-position: -32px -20.5px;
+}
+#footer .linkActive .searchFooter{
+    background-position: -14px -20.5px;
+}
+#footer .linkActive .userFooter{
+    background-position: -52.5px -19.5px;
+}
+#content{
+    margin-bottom: 45px;
+}

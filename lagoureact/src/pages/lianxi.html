@@ -1,0 +1,24 @@
+ <!doctype html>
+ <html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="outer">
+       hello
+    </div>
+  <script>
+    Object.prototype.outerHTML = function(){
+    var innerCon = this.innerHTML, //获得里面的内容
+    outerCon = this.appendChild(innerCon); //添加到里面
+    alert(outerCon); 
+      }
+    function $(id){
+   return document.getElementById(id);
+   }
+   alert($('outer').innerHTML);
+   alert($('outer').outerHTML);
+  </script>
+ </body>
+ </html>

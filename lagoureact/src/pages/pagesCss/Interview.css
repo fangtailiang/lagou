@@ -1,0 +1,31 @@
+.gray{
+	    background-color: #f0f0f0;
+}
+.tab{
+	background-color: #fff;
+    height: 42.5px;
+    line-height: 42.5px;
+    border-bottom: 1px solid #e8e8e8;
+}
+.tab-item{
+	display: inline-block;
+    width: 50%;
+    text-align: center;
+    color: #00b38a;
+    font-size: 1.4rem;
+    height: 100%;
+}
+.activeLink{
+	background-color: #f0f0f0;
+    color: #333;
+ }
+.Emply{
+	text-align: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    color: #333;
+}
+.goto{
+	color: #00b38a;
+    text-decoration: underline;
+}

@@ -1,0 +1,123 @@
+.custom-info{
+	border-bottom: 1px solid #e8e8e8;
+    height: 43px;
+    line-height: 43px;
+    padding: 0 15px;
+    color: #555;
+    font-size: 1.4rem;
+    position: relative;
+}
+.custom-info .info{
+    text-align: left;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    margin-right: 100px;
+    height: 100%;
+    position: relative;
+}
+.info{
+    color: #555;
+    font-size: 1.4rem;
+    line-height: 43px;
+}
+.go{
+	position: absolute;
+    right: 15px;
+    top: 0;
+    display: block;
+    float: right;
+    background-color: #f5f5f5;
+    padding: 0 20px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 6px;
+    color: #00b38a;
+    border-radius: 15px;
+}
+.go .icon{
+	display: inline-block;
+	width: 10px;
+    height: 20px;
+    background: url(../img/icon.png) no-repeat -88px 7px;
+    background-size: 250px 250px;
+    margin-right: 3px;
+}
+.go .text2{
+    display: inline-block;
+    position: relative;
+    height: 25px;
+}
+.list .list-item{
+	padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e8e8e8;
+}
+.list .item-logo{
+	 display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+.list .item-desc{
+	margin-left: 70px;
+    height: 62px;
+    color: #333;
+}
+h2{
+     font-weight: bold;
+}
+.item-title{
+	font-size: 1.6rem;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-info{
+	    margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;
+}
+.item-pos{
+    font-size: 1.2rem;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.item-info .item-salary{
+	font-size: 1.6rem;
+    color: #00b38a;
+    float: right;
+}
+.item-time{
+	font-size: 1rem;
+    color: #888;
+}
+.list-more{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+}
+#copyright{
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding-bottom: 40px;
+    color: #333;
+}
+.copyright-item{
+    height: 32px;
+    line-height: 32px;
+}
+.now{
+    color: #999;
+}
